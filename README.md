@@ -5,15 +5,15 @@
 
 ## Description
 
-A singleplayer Paper.io clone for PSP, written in C with SDL2 and PSPSDK.
+A singleplayer Paper.io inspired homebrew game for PSP, written in C with SDL2 and PSPSDK.
 
 Claim area by enclosing space on the map and compete with bots for territory. Cut through an opponent's trail to eliminate them. Cross your own trail or hit the border and you die.
 
-## Demo
+## Screenshots
 
-![demo](./.github/screenshots/demo.gif)
+![demo](./.screenshots/demo.gif)
 
-<img src=".github/screenshots/screen0.png" width="240"> <img src=".github/screenshots/screen1.png" width="240">
+<img src=".screenshots/start.png" width="240"> <img src=".screenshots/paused.png" width="240">
 
 ## Installation
 
