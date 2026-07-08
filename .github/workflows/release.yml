@@ -21,15 +21,16 @@ jobs:
 
       - name: Package release
         run: |
-          mkdir -p release/PAPER
-          cp EBOOT.PBP release/PAPER/
-          cp README.md release/PAPER/
-          cp -r assets release/PAPER/
-          cd release && zip -r ../paper-${{ github.ref_name }}.zip .
+          mkdir -p release/PAPER-PSP
+          cp EBOOT.PBP release/PAPER-PSP/
+          cp LICENSE release/PAPER-PSP/
+          cp -r .screenshots release/PAPER-PSP
+          cp README.md release/PAPER-PSP/
+          cd release && zip -r ../paper-psp-${{ github.ref_name }}.zip .
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: paper-*.zip
+          files: paper-psp-*.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
