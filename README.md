@@ -1,7 +1,7 @@
 # Paper PSP
 
-![PSP](https://img.shields.io/badge/PSP-003087?style=for-the-badge&logo=playstation&logoColor=white) 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![GitHub Release](https://img.shields.io/github/v/release/jeromeberg/paper-psp) 
+![PSP](https://img.shields.io/badge/PSP-003087?style=flat&logo=playstation&logoColor=white) 
+![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) ![GitHub Release](https://img.shields.io/github/v/release/jeromeberg/paper-psp) 
 
 ## Description
 
