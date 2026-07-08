@@ -1,4 +1,4 @@
-TARGET = paper
+TARGET = paper-psp
 
 OBJS   = obj/area.o \
 		obj/bot.o \
@@ -13,8 +13,8 @@ OBJS   = obj/area.o \
 
 BUILD_PRX       = 1
 EXTRA_TARGETS   = EBOOT.PBP
-PSP_EBOOT_TITLE = Paper
-PSP_EBOOT_ICON  = assets/ICON0.PNG
+PSP_EBOOT_TITLE = Paper PSP
+PSP_EBOOT_ICON  = ICON0.PNG
 
 VPATH    = src
 INCDIR   = include

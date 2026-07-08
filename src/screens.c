@@ -5,7 +5,7 @@ void screen_home(SDL_Renderer *r)
     draw_overlay(r, 160);
 
     draw_set_color(r, COL_WHITE);
-    draw_text_centered(r, "PAPER", 90, 3);
+    draw_text_centered(r, "PAPER PSP", 90, 3);
 
     draw_set_color(r, COL_GREY);
     draw_text_centered(r, "PRESS START TO PLAY", 170, 2);
